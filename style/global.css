@@ -11,13 +11,14 @@ html {
   --white: #fafafa;
   --light-blue: #e0ecff;
   --blue: #3485ff;
-  --background: #f6faff --red:#e83f5b;
+  --background: #f6faff;
+  --red:#e83f5b;
   --overlay: #040911;
   --icons-details: #a5b0c1;
   --gray-dark: #4d5e77;
   --gray-blue: #a1b2cd;
   --gray-light: #e5eaf1;
-
+  --gray-medium: #eaecf2;
 
 
 }
@@ -87,6 +88,16 @@ button.outlined ,
   border: #3485ff solid 0.2rem;
 }
 
+button.red , .button.red {
+  background: #e83f5b;
+  color: #fafafa;
+}
+button.grey , .button.grey {
+  background: var(--gray-light);
+  color: var(--gray-dark);
+}
+
+/* header */
 
 .content header {
   width: 80%;
